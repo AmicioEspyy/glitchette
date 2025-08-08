@@ -1,0 +1,119 @@
+# Build outputs
+build/
+target/
+*.o
+*.bin
+*.elf
+*.img
+*.iso
+
+# Rust
+Cargo.lock
+target/
+**/*.rs.bk
+*.pdb
+
+# Assembly
+*.lst
+*.map
+
+# OS Development
+*.sym
+*.dis
+kernel.map
+boot.map
+
+# QEMU
+qemu.log
+serial.log
+*.qcow2
+*.vmdk
+
+# GDB
+.gdb_history
+gdb.txt
+
+# Editors
+.vscode/
+.idea/
+.github/
+*.swp
+*.swo
+*~
+.#*
+\#*#
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.log
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Compiled object files
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Development tools
+.ccls-cache/
+compile_commands.json
+.clangd/
+
+# Testing
+test_output/
+debug/
+*.test
+
+# Documentation builds
+docs/_build/
+*.pdf
+*.ps
+*.dvi
+
+# Profiling
+*.prof
+perf.data*
+callgrind.out.*
+
+# Debugging symbols
+*.debug
+*.dbg
