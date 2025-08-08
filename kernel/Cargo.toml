@@ -1,0 +1,14 @@
+[package]
+name = "glitchette-kernel"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+description = "The Glitchette operating system kernel"
+
+[lib]
+name = "kernel"
+path = "src/rust/main.rs"
+crate-type = ["staticlib"]
+
+[dependencies]
+# No dependencies for bare metal kernel
